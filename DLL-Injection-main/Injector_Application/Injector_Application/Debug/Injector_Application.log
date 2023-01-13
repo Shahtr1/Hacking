@@ -1,0 +1,11 @@
+﻿  HelperClass.cpp
+  Injector.cpp
+  main.cpp
+C:\Users\tramb\Downloads\DLL INJECTION\Injector_Application\Injector_Application\main.cpp(4,1): warning C4005: 'MAX_PATH': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\minwindef.h(60): message : see previous definition of 'MAX_PATH'
+C:\Users\tramb\Downloads\DLL INJECTION\Injector_Application\Injector_Application\main.cpp(58,3): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\tramb\Downloads\DLL INJECTION\Injector_Application\Injector_Application\main.cpp(100,2): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+  Generating Code...
+C:\Users\tramb\Downloads\DLL INJECTION\Injector_Application\Injector_Application\HelperClass.cpp(25): warning C4172: returning address of local variable or temporary: path
+HelperClass.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+  Injector_Application.vcxproj -> C:\Users\tramb\Downloads\DLL INJECTION\Injector_Application\Debug\Injector_Application.exe

@@ -1,0 +1,11 @@
+#include <iostream>
+#include <fstream>
+#include <Windows.h>
+#include <TlHelp32.h>
+#include <windows.h>
+#include <dbghelp.h>
+#include <tchar.h>
+#include <strsafe.h>
+#include <string>
+#include <shlobj.h>
+#include <conio.h>
