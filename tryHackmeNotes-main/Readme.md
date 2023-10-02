@@ -1,7 +1,7 @@
 ## Learning Paths order
 
 1. ~~Introduction to Cyber Security~~
-2. Pre Security
+2. ~~Pre Security~~
 3. Complete Beginner
 4. Web Fundamentals
 5. SOC Level 1
