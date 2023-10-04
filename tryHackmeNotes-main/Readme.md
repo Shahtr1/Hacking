@@ -5,9 +5,10 @@
 3. Complete Beginner
 4. Web Fundamentals
 5. SOC Level 1
-6. Jr Penetration Tester
-7. Offensive Pentesting
-8. Red Teaming
-9. Cyber Defense
-10. Attacking and Defending AWS
-11. CompTIA Pentest+
+6. SOC Level 2
+7. Jr Penetration Tester
+8. Offensive Pentesting
+9. Red Teaming
+10. Cyber Defense
+11. Attacking and Defending AWS
+12. CompTIA Pentest+
