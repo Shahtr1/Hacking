@@ -106,7 +106,7 @@ Here's a more detailed explanation of how Nmap handles UDP port scanning:
 **Fine-Tuning Scope and Performance**
 
 1. port list: -p22,80,443 will scan ports 22, 80 and 443.
-2. port range: -p1-1023 will scan all ports between 1 and 1023 inclusive, while -p20-25 will scan ports between 20 and 25 inclusive.
+2. port range: -p 1-1023 will scan all ports between 1 and 1023 inclusive, while -p 20-25 will scan ports between 20 and 25 inclusive.
 3. You can request the scan of all ports by using -p-, which will scan all 65535 ports.
 4. If you want to scan the most common 100 ports, add -F
 5. Using --top-ports 10 will check the ten most common ports.
