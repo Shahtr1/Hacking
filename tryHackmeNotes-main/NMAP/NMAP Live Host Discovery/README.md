@@ -10,10 +10,20 @@ ARP (Address Resolution Protocol) is a protocol used to map IP addresses to MAC 
 
 1. When a privileged user (e.g., root or a user with sudo privileges) scans targets outside their local network, Nmap employs several techniques:
 
-- ICMP echo requests (ping).
-- TCP ACK to port 80 (HTTP).
-- TCP SYN to port 443 (HTTPS).
-- ICMP timestamp requests.
+   - #### ICMP Echo Requests (Ping):
+
+     Nmap sends ICMP echo requests to potential hosts, and if a host responds, it is considered live.
+
+   - #### TCP ACK to Port 80 (HTTP):
+
+     Nmap sends a TCP ACK packet to port 80, which is typically associated with HTTP services, and waits for a response.
+
+   - #### TCP SYN to Port 443 (HTTPS):
+
+     Nmap sends a TCP SYN packet to port 443, usually used for HTTPS, and waits for a response.
+
+   - #### ICMP Timestamp Requests:
+     Nmap sends ICMP timestamp requests to potential hosts to determine if they are live.
 
 2. When an unprivileged user tries to scan targets outside the local network, Nmap resorts to a TCP 3-way handshake by sending SYN packets to ports 80 and 443.
 
@@ -36,6 +46,8 @@ Example:
 ```bash
 nmap -PR -sn MACHINE_IP/24
 ```
+
+---
 
 **ARP-SCAN**
 

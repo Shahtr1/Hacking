@@ -44,6 +44,8 @@ It is worth mentioning that the -r option can also be added to scan the ports in
 
 **TCP SYN Scan (Half Open)**
 
+Default scan type used by NMAP
+
 Unprivileged users are limited to connect scan. However, the default scan mode is SYN scan, and it requires a privileged (root or sudoer) user to run it. SYN scan does not need to complete the TCP 3-way handshake;
 
 - If the port is open, the target system responds with a SYN-ACK packet.
