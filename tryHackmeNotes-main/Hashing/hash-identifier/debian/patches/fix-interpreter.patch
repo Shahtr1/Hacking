@@ -1,0 +1,15 @@
+--- a/hash-id.py
++++ b/hash-id.py
+@@ -1,4 +1,4 @@
+-#!/usr/bin/env python
++#!/usr/bin/env python3
+ # encoding: utf-8
+ # Hash Identifier
+ # By Zion3R
+@@ -589,4 +589,4 @@
+         first = None
+     except KeyboardInterrupt:
+         print("\n\n\tBye!")
+-        exit()
+\ No newline at end of file
++        exit()

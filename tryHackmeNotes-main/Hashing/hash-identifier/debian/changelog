@@ -1,0 +1,69 @@
+hash-identifier (1.2+git20180314-0kali3) kali-dev; urgency=medium
+
+  [ Kali Janitor ]
+  * Update standards version to 4.6.1, no changes needed.
+  * Update standards version to 4.6.2, no changes needed.
+
+  [ Daniel Ruiz de Alegría ]
+  * Fix 'invalid escape sequence' errors
+  * Update packaging
+
+ -- Daniel Ruiz de Alegría <daniruiz@kali.org>  Mon, 18 Nov 2024 13:33:39 +0100
+
+hash-identifier (1.2+git20180314-0kali2) kali-dev; urgency=medium
+
+  [ Kali Janitor ]
+  * Trim trailing whitespace
+  * Set upstream metadata fields: Bug-Datbase, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update standards version to 4.5.0, no changes needed.
+  [ Ben Wilson ]
+  * Add executable to helper-script
+  * New helper-script format
+  * Add Uploaders
+  * Remove template comment and switch spaces to tabs
+  [ Steev Klimaszewski ]
+  * Update Debian watch file
+  * Update Debian watch file for proper git
+  * Add patch to fix python interpreter call
+  * Prepare for Release
+
+ -- Steev Klimaszewski <steev@kali.org>  Mon, 07 Nov 2022 22:21:45 -0600
+
+hash-identifier (1.2+git20180314-0kali1) kali-dev; urgency=medium
+
+  [ Raphaël Hertzog ]
+  * Update Maintainer field
+  * Update Vcs-* fields for the move to gitlab.com
+  * Add GitLab's CI configuration file
+  * Configure git-buildpackage for Kali
+  * Update URL in GitLab's CI configuration file
+
+  [ Sophie Brun ]
+  * Update upstream git repo
+  * New upstream version 1.2+git20180314
+  * Switch to Python 3
+  * Use debhelper-compat 12
+  * Bump Standards-Version to 4.4.0
+  * Fix typo errors
+  * Update installation for new release
+
+ -- Sophie Brun <sophie@offensive-security.com>  Thu, 26 Sep 2019 14:27:44 +0200
+
+hash-identifier (1.1-1kali2) kali; urgency=low
+
+  * Added watch file (Closes: 0000881)
+
+ -- Devon Kearns <dookie@kali.org>  Thu, 09 Jan 2014 16:42:47 -0700
+
+hash-identifier (1.1-1kali1) kali; urgency=low
+
+  * Removed desktop files
+
+ -- Mati Aharoni <muts@kali.org>  Sat, 15 Dec 2012 15:20:37 -0500
+
+hash-identifier (1.1-1kali0) kali; urgency=low
+
+  * Initial release
+
+ -- Devon Kearns <dookie@kali.org>  Thu, 06 Dec 2012 13:17:02 -0700

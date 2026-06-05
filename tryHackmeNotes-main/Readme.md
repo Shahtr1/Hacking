@@ -11,7 +11,7 @@ This repository contains structured notes, lab walkthroughs, cheat sheets, and r
 - `Comand Injection/` - Command injection concepts, examples, and exploitation strategies.
 - `Curl/` - Usage notes for `curl` in web application testing and enumeration.
 - `File Inclusion/` - Local and remote file inclusion attack notes, payloads, and detection guidance.
-- `Hydra/` - Password cracking and brute-forcing notes using Hydra.
+- `Hashing/` - Hash identification and password cracking tool notes, including Hydra and hash-identifier.
 - `Linux commands/` - Common Linux command line usage, file system navigation, process management, and privilege escalation assistance.
 - `Linux PrivEsc/` - Linux privilege escalation methodologies, SUID binaries, misconfigurations, and exploit notes.
 - `Metasploit/` - Meterpreter and Metasploit framework usage notes, modules, and post-exploitation techniques.

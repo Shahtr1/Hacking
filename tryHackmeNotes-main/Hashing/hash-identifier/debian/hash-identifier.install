@@ -1,0 +1,2 @@
+hash-id.py usr/share/hash-identifier/
+debian/helper-script/* usr/bin/

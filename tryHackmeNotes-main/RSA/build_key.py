@@ -194,7 +194,7 @@ print("[+] Computed phi(n)")
 # "Find modular inverse of e modulo phi"
 #
 d = pow(e,-1,phi)
-
+    
 print("[+] Computed private exponent d")
 
 

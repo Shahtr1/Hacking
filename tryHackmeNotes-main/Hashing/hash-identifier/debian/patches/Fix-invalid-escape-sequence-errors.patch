@@ -1,0 +1,27 @@
+From c9162faafc10ff2ca3769c3eec2264015b9db0e0 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Daniel=20Ruiz=20de=20Alegr=C3=ADa?= <daniruiz@kali.org>
+Date: Mon, 18 Nov 2024 13:31:03 +0100
+Subject: [PATCH] Fix 'invalid escape sequence' errors
+
+---
+ hash-id.py | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+--- a/hash-id.py
++++ b/hash-id.py
+@@ -10,7 +10,7 @@
+ 
+ version = 1.2
+ 
+-logo='''   #########################################################################
++logo=r'''   #########################################################################
+    #     __  __                     __           ______    _____           #
+    #    /\ \/\ \                   /\ \         /\__  _\  /\  _ `\         #
+    #    \ \ \_\ \     __      ____ \ \ \___     \/_/\ \/  \ \ \/\ \        #
+@@ -589,4 +589,4 @@
+         first = None
+     except KeyboardInterrupt:
+         print("\n\n\tBye!")
+-        exit()
++        exit()
+\ No newline at end of file

